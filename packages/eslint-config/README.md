@@ -1,18 +1,18 @@
-# @tinkoff/eslint-config
+# @floydspace/eslint-config
 
-ESlint plugin includes Tinkoff rules for JS and TS codebase. Better to use with framework-oriented packages `@tinkoff/eslint-config-react` or `@tinkoff/eslint-config-angular`
+ESlint plugin includes shared opinionated rules for JS and TS codebase. Better to use with framework-oriented packages `@floydspace/eslint-config-react` or `@floydspace/eslint-config-angular`
 
 ## Usage
 
 Install from npm
 
 ```bash
-npm i --save-dev @tinkoff/eslint-config
+npm i --save-dev @floydspace/eslint-config
 ```
 
 Then, need to include necessary configurations sets to `.eslintrc`. Wee need to choose base configuration, and any
 necessary additional configs. Package include `eslint@7` and `prettier@2` dependencies, so you should remove `eslint`,
-`prettier`, and `@tinkoff/eslint-config` internal dependencies from your project `package.json`.
+`prettier`, and `@floydspace/eslint-config` internal dependencies from your project `package.json`.
 
 ### Base configurations
 
@@ -20,7 +20,7 @@ necessary additional configs. Package include `eslint@7` and `prettier@2` depend
 
 ```bash
 {
-  "extends": ["@tinkoff/eslint-config/app"]
+  "extends": ["@floydspace/eslint-config/app"]
 }
 ```
 
@@ -28,7 +28,15 @@ necessary additional configs. Package include `eslint@7` and `prettier@2` depend
 
 ```bash
 {
-  "extends": ["@tinkoff/eslint-config/lib"]
+  "extends": ["@floydspace/eslint-config/lib"]
+}
+```
+
+#### For Lambda functions
+
+```bash
+{
+  "extends": ["@floydspace/eslint-config/lambda"]
 }
 ```
 
@@ -38,7 +46,7 @@ necessary additional configs. Package include `eslint@7` and `prettier@2` depend
 
 ```bash
 {
-  "extends": ["@tinkoff/eslint-config/app", "@tinkoff/eslint-config/jest"]
+  "extends": ["@floydspace/eslint-config/lambda", "@floydspace/eslint-config/jest"]
 }
 ```
 
@@ -46,17 +54,18 @@ necessary additional configs. Package include `eslint@7` and `prettier@2` depend
 
 Main configurations sets contains common rules
 
-- `@tinkoff/eslint-config/app` - common rules and specific rules for applications
-- `@tinkoff/eslint-config/lib` - common rules and specific rules for libraries
+- `@floydspace/eslint-config/app` - common rules and specific rules for applications
+- `@floydspace/eslint-config/lib` - common rules and specific rules for libraries
+- `@floydspace/eslint-config/lambda` - common rules and specific rules for lambda functions
 
 Additional configurations sets. This configs **not** contain common eslint rules, and must be included with main
 configurations
 
-- `@tinkoff/eslint-config/jest` - rules for lint Jest test suits
+- `@floydspace/eslint-config/jest` - rules for lint Jest test suits
 
 ## Internal used plugins
 
-`@tinkoff/eslint-config/app` and `@tinkoff/eslint-config/lib` include:
+`@floydspace/eslint-config/app` and `@floydspace/eslint-config/lib` include:
 
 - `eslint-config-airbnb` - common and popular configuration
 - `eslint-plugin-eslint-comments` - validate `eslint` comments
@@ -72,5 +81,5 @@ configurations
 
 ### Wrong or duplicated eslint or some eslint plugins versions
 
-Try to remove `eslint`, `prettier`, and `@tinkoff/eslint-config` internal dependencies from your project `package.json`,
+Try to remove `eslint`, `prettier`, and `@floydspace/eslint-config` internal dependencies from your project `package.json`,
 then reinstall dependencies.

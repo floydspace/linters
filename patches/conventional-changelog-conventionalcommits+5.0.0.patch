@@ -1,0 +1,13 @@
+diff --git a/node_modules/conventional-changelog-conventionalcommits/index.js b/node_modules/conventional-changelog-conventionalcommits/index.js
+index f22d3cf..b597a78 100644
+--- a/node_modules/conventional-changelog-conventionalcommits/index.js
++++ b/node_modules/conventional-changelog-conventionalcommits/index.js
+@@ -21,7 +21,7 @@ module.exports = function (parameter) {
+       parameter(null, { gitRawCommitsOpts: { noMerges: null }, conventionalChangelog, parserOpts, recommendedBumpOpts, writerOpts })
+     })
+   } else {
+-    const config = parameter || {}
++    const config = { ...parameter } || {}
+     return presetOpts(config)
+   }
+ }

@@ -18,10 +18,7 @@ module.exports = {
             checkMethodDeclarations: true,
           },
         ],
-        '@typescript-eslint/no-floating-promises': [
-          'error',
-          { ignoreVoid: true, ignoreIIFE: true },
-        ],
+        '@typescript-eslint/no-floating-promises': ['error', { ignoreVoid: true, ignoreIIFE: true }],
       },
     },
   ],

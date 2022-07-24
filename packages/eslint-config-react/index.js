@@ -51,6 +51,7 @@ module.exports = {
     'react/require-default-props': 'off', // default values in props destructuring is not supported
     'react/static-property-placement': ['error', 'static public field'],
     'react/state-in-constructor': 'off',
+    'react/function-component-definition': ['error', { namedComponents: ['arrow-function'] }],
 
     'react/sort-comp': [
       'off',

@@ -1,11 +1,6 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
-  plugins: [
-    'import',
-    '@typescript-eslint',
-    'simple-import-sort',
-    'eslint-plugin-import',
-  ],
+  plugins: ['import', '@typescript-eslint', 'simple-import-sort', 'eslint-plugin-import'],
   settings: {
     'import/parsers': { '@typescript-eslint/parser': ['.ts'] },
     'import/resolver': {
@@ -33,7 +28,7 @@ module.exports = {
     'no-duplicate-imports': 'off',
     '@typescript-eslint/no-duplicate-imports': 'error',
 
-    // overwrite rule from `@tinkoff/eslint-config`
+    // overwrite rule from `@floydspace/eslint-config`
     '@typescript-eslint/consistent-type-imports': 'off',
   },
 };

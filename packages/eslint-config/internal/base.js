@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['eslint-config-airbnb-base', 'plugin:eslint-comments/recommended'],
+  extends: ['eslint-config-airbnb-base', 'plugin:eslint-comments/recommended', 'plugin:@floydspace/recommended'],
 
   parser: '@babel/eslint-parser',
 
@@ -67,11 +67,7 @@ module.exports = {
     'no-empty': ['error', { allowEmptyCatch: true }],
     'no-underscore-dangle': 'off',
     'no-return-assign': ['error', 'except-parens'],
-    'lines-between-class-members': [
-      'error',
-      'always',
-      { exceptAfterSingleLine: true },
-    ],
+    'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
     'spaced-comment': ['error', 'always', { exceptions: ['*'] }],
     'max-nested-callbacks': ['error', 4],
     'no-bitwise': 'warn',

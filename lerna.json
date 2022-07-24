@@ -1,15 +1,19 @@
 {
-    "packages": [
-        "packages/*"
-    ],
-    "version": "1.36.1",
-    "command": {
-        "version": {
-            "allowBranch": [
-                "master",
-                "release/*"
-            ],
-            "message": "chore(release): publish %s"
-        }
+  "packages": [
+    "packages/*"
+  ],
+  "version": "1.36.1",
+  "command": {
+    "version": {
+      "allowBranch": [
+        "master",
+        "release/*",
+        "feature/*"
+      ],
+      "message": "chore(release): [skip ci] publish %s"
     }
+  },
+  "changelogPreset": {
+    "name": "conventionalcommits"
+  }
 }

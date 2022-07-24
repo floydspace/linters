@@ -3,11 +3,7 @@ module.exports = {
 
   overrides: [
     {
-      extends: [
-        'plugin:@typescript-eslint/recommended',
-        'prettier/@typescript-eslint',
-        'plugin:import/typescript',
-      ],
+      extends: ['plugin:@typescript-eslint/recommended', 'prettier/@typescript-eslint', 'plugin:import/typescript'],
 
       parser: '@typescript-eslint/parser',
 
@@ -55,14 +51,7 @@ module.exports = {
               String: { message: 'Use string instead', fixWith: 'string' },
               Boolean: { message: 'Use boolean instead', fixWith: 'boolean' },
               Number: { message: 'Use number instead', fixWith: 'number' },
-              Object: {
-                message: 'Use Record<string, any> instead',
-                fixWith: 'Record<string, any>',
-              },
-              object: {
-                message: 'Use Record<string, any> instead',
-                fixWith: 'Record<string, any>',
-              },
+              Object: { message: 'Use object instead', fixWith: 'object' },
             },
             extendDefaults: false,
           },

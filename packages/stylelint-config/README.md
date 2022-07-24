@@ -1,20 +1,20 @@
-# @tinkoff/stylelint-config
+# @floydspace/stylelint-config
 
-Common Stylelint configuration for Tinkoff projects
+Common Stylelint configuration for FloydSpace projects
 
 ## Usage
 
 1. Install from npm
 
 ```bash
-npm i --save-dev @tinkoff/stylelint-config
+npm i --save-dev @floydspace/stylelint-config
 ```
 
 1. Create `stylelint.config.js` at project root
 
 ```json
 {
-  "extends": ["@tinkoff/stylelint-config"]
+  "extends": ["@floydspace/stylelint-config"]
 }
 ```
 
@@ -27,7 +27,7 @@ More information about available at
 
 ```js
 {
-    "extends": ["@tinkoff/stylelint-config/prettier"]
+    "extends": ["@floydspace/stylelint-config/prettier"]
 }
 ```
 
@@ -35,7 +35,7 @@ More information about available at
 
 ```json
 {
-  "extends": ["@tinkoff/stylelint-config/less"]
+  "extends": ["@floydspace/stylelint-config/less"]
 }
 ```
 
@@ -43,6 +43,6 @@ More information about available at
 
 ```json
 {
-  "extends": ["@tinkoff/stylelint-config/angular"]
+  "extends": ["@floydspace/stylelint-config/angular"]
 }
 ```

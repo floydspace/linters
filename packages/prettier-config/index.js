@@ -3,7 +3,19 @@ const config = {
   singleQuote: true,
   trailingComma: 'es5',
   arrowParens: 'always',
-  htmlWhitespaceSensitivity: 'strict',
+  printWidth: 120,
+  semi: true,
+  useTabs: false,
+  bracketSpacing: true,
+  overrides: [
+    {
+      files: ['package.json'],
+      options: {
+        parser: 'json-stringify',
+        plugins: [require('path').resolve(__dirname, 'plugins', 'prettier-plugin-sort-package')],
+      },
+    },
+  ],
 };
 
 module.exports = config;

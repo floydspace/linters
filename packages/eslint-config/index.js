@@ -7,6 +7,7 @@ module.exports = {
     './internal/test-files',
     './internal/typescript',
     './internal/prettier',
+    './internal/moment',
   ],
 
   env: {

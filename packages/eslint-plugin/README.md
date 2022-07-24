@@ -2,7 +2,7 @@
 
 ```json5
 {
-  plugins: ['@tinkoff/eslint-plugin'],
+  plugins: ['@floydspace'],
   rules: {
     // ...
   },
@@ -11,8 +11,7 @@
 
 ### Rules
 
-| Name                         | Description                                                  | Deprecated |
-| ---------------------------- | ------------------------------------------------------------ | ---------- |
-| -                            | -                                                            | -          |
-| @tinkoff/member-ordering     | Require a consistent member declaration order                | yes        |
-| @tinkoff/require-return-type | Require explicit return types on functions and class methods | yes        |
+| Name                                                                       | Description                                                                 |
+| -------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| -                                                                          | -                                                                           |
+| [@floydspace/object-shorthand-grouping](docs/object-shorthand-grouping.md) | Group your shorthand properties at the beginning of your object declaration |

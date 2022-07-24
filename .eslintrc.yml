@@ -1,0 +1,3 @@
+extends:
+  - '@floydspace/eslint-config/lib'
+  - '@floydspace/eslint-config/jest'

@@ -1,0 +1,31 @@
+{
+  "name": "@floydspace/eslint-config-graphql",
+  "version": "1.36.1",
+  "description": "Shared ESLint configs for GraphQL apps",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/floydspace/linters.git"
+  },
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Victor Korzunin",
+    "email": "ifloydrose@gmail.com"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@graphql-eslint/eslint-plugin": "^3.10.4",
+    "eslint-plugin-prettier": "^4.1.0",
+    "prettier": "^2.7.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=7"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,31 +1,28 @@
 {
-  "name": "@tinkoff/prettier-config",
+  "name": "@floydspace/prettier-config",
   "version": "1.32.1",
-  "description": "Tinkoff prettier config",
-  "license": "Apache-2.0",
+  "description": "Shared prettier config",
   "keywords": [
     "prettier",
     "prettier-config"
   ],
-  "scripts": {},
-  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/floydspace/linters.git"
+  },
+  "license": "Apache-2.0",
   "author": {
     "name": "Tinkoff Team",
     "email": "frontend@tinkoff.ru"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/TinkoffCreditSystems/linters.git"
+  "main": "index.js",
+  "dependencies": {
+    "@prettier/plugin-xml": "~2.0.1",
+    "prettier": "^2.7.1",
+    "prettier-plugin-organize-attributes": "~0.0.5",
+    "sort-package-json": "^1.55.0"
   },
   "publishConfig": {
     "access": "public"
-  },
-  "dependencies": {
-    "@prettier/plugin-xml": "~2.0.1",
-    "@types/prettier": "^2.4.4",
-    "prettier": "2.6.2",
-    "prettier-package-json": "^2.6.3",
-    "prettier-plugin-organize-attributes": "~0.0.5",
-    "sort-package-json": "^1.55.0"
   }
 }

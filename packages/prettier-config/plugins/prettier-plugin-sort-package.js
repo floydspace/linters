@@ -7,13 +7,9 @@ exports.parsers = {
   'json-stringify': {
     ...parser,
     preprocess(text, options) {
-      const processed = parser.preprocess
-        ? parser.preprocess(text, options)
-        : text;
+      const processed = parser.preprocess ? parser.preprocess(text, options) : text;
 
-      const isPackageJson =
-        options.filepath &&
-        /package\.json$|ng-package\.json$/.test(options.filepath);
+      const isPackageJson = options.filepath && /package\.json$|ng-package\.json$/.test(options.filepath);
 
       if (isPackageJson) {
         const json = JSON.parse(processed);

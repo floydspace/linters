@@ -1,13 +1,13 @@
-# @tinkoff/eslint-config-react
+# @floydspace/eslint-config-react
 
-ESlint plugin includes Tinkoff rules for React applications. Designed to use with `@tinkoff/eslint-config`.
+ESlint plugin includes shared opinionated rules for React applications. Designed to use with `@floydspace/eslint-config`.
 
 ## Usage
 
 Install from npm
 
 ```bash
-npm i --save-dev @tinkoff/eslint-config @tinkoff/eslint-config-react
+npm i --save-dev @floydspace/eslint-config @floydspace/eslint-config-react
 ```
 
 Then, need to include necessary configurations sets to `.eslintrc`. Wee need to choose base configuration, and any
@@ -15,7 +15,7 @@ necessary additional configs.
 
 ```bash
 {
-  "extends": ["@tinkoff/eslint-config/app", "@tinkoff/eslint-config-react"]
+  "extends": ["@floydspace/eslint-config/app", "@floydspace/eslint-config-react"]
 }
 ```
 

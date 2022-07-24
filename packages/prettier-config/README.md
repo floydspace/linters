@@ -1,19 +1,19 @@
-# @tinkoff/prettier-config
+# @floydspace/prettier-config
 
-Common Prettier configuration for Tinkoff projects. Compatible with Tinkoff eslint configs.
+Shared Prettier configuration for FloydSpace projects. Compatible with FloydSpace eslint configs.
 
 ## Usage
 
 1. Install from npm
 
 ```bash
-npm i --save-dev @tinkoff/prettier-config
+npm i --save-dev @floydspace/prettier-config
 ```
 
 1. Create `.prettierrc.js` at project root
 
 ```js
-module.exports = require('@tinkoff/prettier-config');
+module.exports = require('@floydspace/prettier-config');
 ```
 
 More information about available at
@@ -26,6 +26,6 @@ More information about available at
 ```json5
 {
   // ...
-  prettier: '@tinkoff/prettier-config/angular',
+  prettier: '@floydspace/prettier-config/angular',
 }
 ```
