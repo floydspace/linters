@@ -1,6 +1,6 @@
 {
   "name": "@floydspace/stylelint-config",
-  "version": "1.36.2",
+  "version": "1.36.3",
   "description": "Shared stylelint config",
   "keywords": [
     "stylelint",

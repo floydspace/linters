@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.36.3 (2022-07-24)
+
+
+### Bug Fixes
+
+* add react prettier config, fix example docs ([1c04b8c](https://github.com/floydspace/linters/commit/1c04b8c7948cc6e0bb5aa9b769374b2529824868))
+
+
+
 ## 1.36.2 (2022-07-24)
 
 **Note:** Version bump only for package @floydspace/eslint-config
