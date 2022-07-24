@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.36.4 (2022-07-24)
+
+
+### Bug Fixes
+
+* improve react prettier config ([6bd6bfc](https://github.com/floydspace/linters/commit/6bd6bfcc75d28670b4a4a1ad615ec3279c3037c7))
+
+
+
 ## 1.36.3 (2022-07-24)
 
 

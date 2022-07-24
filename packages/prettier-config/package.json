@@ -1,6 +1,6 @@
 {
   "name": "@floydspace/prettier-config",
-  "version": "1.36.3",
+  "version": "1.36.4",
   "description": "Shared prettier config",
   "keywords": [
     "prettier",
