@@ -23,9 +23,18 @@ More information about available at
 
 - **angular**
 
-```json5
+```json
 {
   // ...
-  prettier: '@floydspace/prettier-config/angular',
+  "prettier": "@floydspace/prettier-config/angular"
+}
+```
+
+- **react**
+
+```json
+{
+  // ...
+  "prettier": "@floydspace/prettier-config/react"
 }
 ```

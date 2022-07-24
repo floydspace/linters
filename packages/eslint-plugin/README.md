@@ -1,11 +1,11 @@
 ### Usage
 
-```json5
+```json
 {
-  plugins: ['@floydspace'],
-  rules: {
+  "plugins": ["@floydspace"],
+  "rules": {
     // ...
-  },
+  }
 }
 ```
 

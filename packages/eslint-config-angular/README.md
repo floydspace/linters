@@ -13,29 +13,29 @@ npm i --save-dev @floydspace/eslint-config @floydspace/eslint-config-angular
 Then, need to include `recommendation` configurations sets to `.eslintrc`. We need to choose base configuration, and any
 necessary additional configs:
 
-```json5
+```json
 {
-  extends: ['@floydspace/eslint-config/app', '@floydspace/eslint-config-angular'],
+  "extends": ["@floydspace/eslint-config/app", "@floydspace/eslint-config-angular"]
 }
 ```
 
 You can also include `optional` configurations, however, you are responsible for implementing these rules in your project:
 
-```json5
+```json
 {
-  extends: [
+  "extends": [
     // recommended
-    '@floydspace/eslint-config/app',
-    '@floydspace/eslint-config-angular',
+    "@floydspace/eslint-config/app",
+    "@floydspace/eslint-config-angular",
 
     // optional
-    '@floydspace/eslint-config-angular/html',
-    '@floydspace/eslint-config-angular/rxjs',
-    '@floydspace/eslint-config-angular/promise',
-    '@floydspace/eslint-config-angular/imports',
-    '@floydspace/eslint-config-angular/line-statements',
-    '@floydspace/eslint-config-angular/member-ordering',
-  ],
+    "@floydspace/eslint-config-angular/html",
+    "@floydspace/eslint-config-angular/rxjs",
+    "@floydspace/eslint-config-angular/promise",
+    "@floydspace/eslint-config-angular/imports",
+    "@floydspace/eslint-config-angular/line-statements",
+    "@floydspace/eslint-config-angular/member-ordering"
+  ]
 }
 ```
 
