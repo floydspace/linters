@@ -1,6 +1,6 @@
 {
   "name": "@floydspace/eslint-config-react",
-  "version": "1.36.1",
+  "version": "1.36.2",
   "description": "Shared ESLint configs for React apps",
   "keywords": [
     "eslint",
