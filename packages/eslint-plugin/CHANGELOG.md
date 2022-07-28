@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.36.5 (2022-07-28)
+
+
+### Bug Fixes
+
+* **prettier-config:** fix package.json formatting ([07364f0](https://github.com/floydspace/linters/commit/07364f022351946bcbfd8be06d6fc280fa61c271))
+
+
+
 ## 1.36.4 (2022-07-24)
 
 

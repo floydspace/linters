@@ -1,6 +1,6 @@
 {
   "name": "@floydspace/eslint-config-graphql",
-  "version": "1.36.4",
+  "version": "1.36.5",
   "description": "Shared ESLint configs for GraphQL apps",
   "keywords": [
     "eslint",
