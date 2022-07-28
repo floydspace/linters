@@ -6,7 +6,6 @@ module.exports = {
   semi: false,
   arrowParens: 'avoid',
   overrides: [
-    ...base.overrides,
     {
       files: ['*.js'],
       options: { parser: 'babel' },
@@ -48,5 +47,6 @@ module.exports = {
       files: ['*.md'],
       options: { parser: 'markdown', tabWidth: 2 },
     },
+    ...base.overrides,
   ],
 };
