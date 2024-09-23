@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.37.0 (2024-09-23)
+
+
+### Features
+
+* upgrade dependencies ([#1](https://github.com/floydspace/linters/issues/1)) ([48dda88](https://github.com/floydspace/linters/commit/48dda88aad93c978ba33dbc895860f182ba89460))
+
+
+
 ## 1.36.5 (2022-07-28)
 
 

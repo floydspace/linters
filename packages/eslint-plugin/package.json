@@ -1,6 +1,6 @@
 {
   "name": "@floydspace/eslint-plugin",
-  "version": "1.36.5",
+  "version": "1.37.0",
   "description": "Shared ESLint rules",
   "repository": {
     "type": "git",
