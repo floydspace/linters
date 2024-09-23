@@ -20,13 +20,8 @@ module.exports = {
     'import/no-default-export': 'off',
     'import/newline-after-import': ['error', { count: 1 }],
     'import/no-webpack-loader-syntax': 'off',
-    /**
-     * @note: note you must disable the base rule
-     * as it can report incorrect errors in @typescript-eslint
-     */
-    'import/no-duplicates': 'off',
+    'import/no-duplicates': 'error',
     'no-duplicate-imports': 'off',
-    '@typescript-eslint/no-duplicate-imports': 'error',
 
     // overwrite rule from `@floydspace/eslint-config`
     '@typescript-eslint/consistent-type-imports': 'off',

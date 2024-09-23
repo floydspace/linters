@@ -10,4 +10,8 @@ module.exports = {
       '@babel/preset-typescript',
     ],
   ],
+  plugins: [
+    '@babel/plugin-transform-nullish-coalescing-operator',
+    '@babel/plugin-transform-logical-assignment-operators',
+  ],
 };

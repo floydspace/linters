@@ -26,9 +26,7 @@ module.exports = {
                * abstract fields
                * [sort: public -> protected -> private]
                **/
-              'public-abstract-field',
-              'protected-abstract-field',
-              'private-abstract-field',
+              'abstract-field',
 
               /**
                * instance fields
@@ -46,9 +44,7 @@ module.exports = {
                * constructors
                * [sort: public -> protected -> private]
                **/
-              'public-constructor',
-              'protected-constructor',
-              'private-constructor',
+              'constructor',
 
               /**
                * @note(splincode):
@@ -95,9 +91,7 @@ module.exports = {
                * static methods
                * [sort: public -> protected -> private]
                **/
-              'public-static-method',
-              'protected-static-method',
-              'private-static-method',
+              'static-method',
 
               /**
                * abstract
@@ -107,11 +101,9 @@ module.exports = {
               'public-abstract-set',
               'protected-abstract-get',
               'protected-abstract-set',
-              'private-abstract-get',
-              'private-abstract-set',
-              'public-abstract-method',
-              'protected-abstract-method',
-              'private-abstract-method',
+              'abstract-get',
+              'abstract-set',
+              'abstract-method',
 
               /**
                * methods

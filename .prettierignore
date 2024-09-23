@@ -1,3 +1,5 @@
+.vscode
+
 *.lint
 *.fix
 lerna.json
