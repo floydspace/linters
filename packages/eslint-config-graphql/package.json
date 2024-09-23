@@ -18,8 +18,8 @@
   },
   "main": "index.js",
   "dependencies": {
-    "@graphql-eslint/eslint-plugin": "^3.10.4",
-    "eslint-plugin-prettier": "^4.1.0",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.7.1"
   },
   "peerDependencies": {

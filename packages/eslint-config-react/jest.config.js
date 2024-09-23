@@ -1,10 +1,7 @@
 const pack = require('./package.json');
 
-const name = pack.name.split('/').pop();
-
 module.exports = {
   ...require('../../jest.config.base'),
-  name,
   displayName: pack.name,
   rootDir: '.',
   testMatch: [`<rootDir>/test/**/*.test.js`],
