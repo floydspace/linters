@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.38.0 (2026-11-23)
+
+
+### Features
+
+* drop the webpack import resolver ([#2](https://github.com/floydspace/linters/issues/2)) ([ef17709](https://github.com/floydspace/linters/commit/ef177098da69cd35db060b442c3fd47c65c64a62))
+
+
+
 ## 1.37.0 (2024-09-23)
 
 
