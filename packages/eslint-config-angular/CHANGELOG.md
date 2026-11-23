@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.38.1 (2026-11-23)
+
+**Note:** Version bump only for package @floydspace/eslint-config-angular
+
+
+
+
+
 ## 1.38.0 (2026-11-23)
 
 
