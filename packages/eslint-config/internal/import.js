@@ -7,7 +7,6 @@ module.exports = {
         extensions: ['.js', '.ts'],
       },
       typescript: {},
-      webpack: {},
     },
   },
 
